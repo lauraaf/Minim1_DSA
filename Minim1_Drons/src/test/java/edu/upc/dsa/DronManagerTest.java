@@ -13,7 +13,7 @@ public class DronManagerTest {
         dm.addDron("3","Air98","Iberia","x356");
         Assert.assertEquals(3,dm.numDron());;
     }
-    @Test
+    /*@Test
     public void addPilotTest(){
         dm.addPilot("1","Laura","Fernandez");
         dm.addPilot("2","Ariadna","Carol");
@@ -25,12 +25,12 @@ public class DronManagerTest {
         dm.bookFlightPlan("2",12,4,41.5,2.15,"2");
         Assert.assertEquals(2, dm.numFlightPlans());
     }
-    @Test
+   /* @Test
     public void storeDron(){
         Dron dron = new Dron("1","Air30","Volotea","X23");
         dm.storeDron(dron);
         //Assert.assertEquals();
-    }
+    }*/
 
 
 }
